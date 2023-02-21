@@ -6,7 +6,8 @@ def chatbot():
       print("Hello..I am the bot")
 
 chat = Chat(rules.set_pairs, reflections)
-chat.converse()
+
 
 if __name__ == "__main__":
       chatbot()
+      chat.converse()

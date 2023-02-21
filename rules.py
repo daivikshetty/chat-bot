@@ -1,6 +1,6 @@
 set_pairs = [
     [
-        r"my name is (.*)",
+        r"my name is (.*)|i'm (.*)|i am (.*)|hey i am (.*)",
         ["Hello %1, How are you doing today ?",]
     ],
     [
