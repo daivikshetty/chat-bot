@@ -7,6 +7,8 @@ def chatbot():
 
 chat = Chat(rules.set_pairs, reflections)
 chat.converse()
-
+  
+      
+print("Hello i've changed")
 if __name__ == "__main__":
       chatbot()
